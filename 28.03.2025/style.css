@@ -1,8 +1,8 @@
 @font-face {
   font-family: "MinecraftRegular";
-  src: url("../font/MinecraftRegular-Bmg3.otf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+  src: url("./font/MinecraftBoldItalic-1y1e.otf") format("opentype");
+  /* font-style: normal;
+  font-weight: normal; */
 }
 
 * {
@@ -17,7 +17,7 @@ header {
   background-color: #434343;
   color: #ffffff;
 }
- 
+
 .logo {
   display: flex;
   align-items: center;
