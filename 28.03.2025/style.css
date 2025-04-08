@@ -1,16 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&display=swap");
- 
+@font-face {
+  font-family: "MinecraftRegular";
+  src: url("../font/MinecraftRegular-Bmg3.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
+  font-family: "MinecraftRegular";
 }
 header {
   padding: 0px 30px;
   display: flex;
   height: 80px;
-  background-color: #18222d;
+  background-color: #434343;
   color: #ffffff;
-  font-family: "Merriweather", serif;
 }
  
 .logo {
@@ -23,6 +28,7 @@ header {
 }
 .menu {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-grow: 1;
 }
@@ -35,24 +41,11 @@ header {
   align-items: center;
   gap: 20px;
 }
-.set-l {
+.set-el {
   font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.set-l-line {
-  text-align: right;
-}
-.set-r {
-  display: flex;
-  align-items: center;
-  height: 1em;
-  font-size: 20px;
-  padding: 15px 25px;
-  border: 3px solid #ffffff50;
-  border-radius: 5px;
-  gap: 12px;
 }
 .set-r img {
   height: 20px;
