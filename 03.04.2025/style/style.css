@@ -155,6 +155,8 @@ header ol li:hover {
   border-radius: 30px;
   overflow: hidden;
   margin-top: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .banner {
@@ -166,6 +168,14 @@ header ol li:hover {
   height: 306px;
   background-image: url("https://ir-3.ozone.ru/s3/blackfriday-widgets-api-images/img/wc400/533_counterFlex_desktop_lastDayBgImage_f9f48378-afa1-4eba-8bb1-e999f49c8216.png");
   background-size: cover;
+}
+
+.label-purple{
+
+  color: plum;
+  font-weight: 800;
+  font-size: 36px;
+
 }
 
 mark {
